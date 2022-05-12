@@ -1,0 +1,3 @@
+/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab3/part1/CMakeFiles/DgiLab.dir
+/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab3/part1/CMakeFiles/edit_cache.dir
+/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab3/part1/CMakeFiles/rebuild_cache.dir
