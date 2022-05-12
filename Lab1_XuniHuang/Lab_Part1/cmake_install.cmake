@@ -1,4 +1,4 @@
-# Install script for directory: /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab1_XuniHuang/Lab_Part1
+# Install script for directory: /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/Lab1_XuniHuang/Lab_Part1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab1_XuniHuang/Lab_Part1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/Lab1_XuniHuang/Lab_Part1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

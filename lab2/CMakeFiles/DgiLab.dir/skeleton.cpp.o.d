@@ -1,5 +1,5 @@
 CMakeFiles/DgiLab.dir/skeleton.cpp.o: \
-  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/skeleton.cpp \
+  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/skeleton.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -629,5 +629,5 @@ CMakeFiles/DgiLab.dir/skeleton.cpp.o: \
   /opt/homebrew/Cellar/glm/0.9.9.8/include/glm/detail/func_integer.inl \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/SDL2Auxiliary.h \
-  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/TestModel.h
+  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/SDL2Auxiliary.h \
+  /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/TestModel.h

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2
+CMAKE_SOURCE_DIR = /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2
+CMAKE_BINARY_DIR = /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DgiLab.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/DgiLab.dir/flags.make
 CMakeFiles/DgiLab.dir/skeleton.cpp.o: CMakeFiles/DgiLab.dir/flags.make
 CMakeFiles/DgiLab.dir/skeleton.cpp.o: skeleton.cpp
 CMakeFiles/DgiLab.dir/skeleton.cpp.o: CMakeFiles/DgiLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DgiLab.dir/skeleton.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DgiLab.dir/skeleton.cpp.o -MF CMakeFiles/DgiLab.dir/skeleton.cpp.o.d -o CMakeFiles/DgiLab.dir/skeleton.cpp.o -c /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/skeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DgiLab.dir/skeleton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DgiLab.dir/skeleton.cpp.o -MF CMakeFiles/DgiLab.dir/skeleton.cpp.o.d -o CMakeFiles/DgiLab.dir/skeleton.cpp.o -c /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/skeleton.cpp
 
 CMakeFiles/DgiLab.dir/skeleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DgiLab.dir/skeleton.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/skeleton.cpp > CMakeFiles/DgiLab.dir/skeleton.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/skeleton.cpp > CMakeFiles/DgiLab.dir/skeleton.cpp.i
 
 CMakeFiles/DgiLab.dir/skeleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DgiLab.dir/skeleton.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/skeleton.cpp -o CMakeFiles/DgiLab.dir/skeleton.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/skeleton.cpp -o CMakeFiles/DgiLab.dir/skeleton.cpp.s
 
 CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o: CMakeFiles/DgiLab.dir/flags.make
 CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o: SDL2Auxiliary.cpp
 CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o: CMakeFiles/DgiLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o -MF CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o.d -o CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o -c /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/SDL2Auxiliary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o -MF CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o.d -o CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o -c /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/SDL2Auxiliary.cpp
 
 CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/SDL2Auxiliary.cpp > CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/SDL2Auxiliary.cpp > CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.i
 
 CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/SDL2Auxiliary.cpp -o CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/SDL2Auxiliary.cpp -o CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.s
 
 # Object files for target DgiLab
 DgiLab_OBJECTS = \
@@ -109,7 +109,7 @@ DgiLab: CMakeFiles/DgiLab.dir/skeleton.cpp.o
 DgiLab: CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o
 DgiLab: CMakeFiles/DgiLab.dir/build.make
 DgiLab: CMakeFiles/DgiLab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DgiLab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DgiLab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DgiLab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/DgiLab.dir/clean:
 .PHONY : CMakeFiles/DgiLab.dir/clean
 
 CMakeFiles/DgiLab.dir/depend:
-	cd /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/CMakeFiles/DgiLab.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2 /Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/CMakeFiles/DgiLab.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DgiLab.dir/depend
 

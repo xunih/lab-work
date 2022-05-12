@@ -21,9 +21,9 @@ using glm::vec3;
 // --------------------------------------------------------
 // GLOBAL VARIABLES
 
-const int SCREEN_WIDTH = 640;
-const int SCREEN_HEIGHT = 480;
-float focalLength = SCREEN_WIDTH;
+const int SCREEN_WIDTH = 50;
+const int SCREEN_HEIGHT = 50;
+float focalLength = SCREEN_HEIGHT;
 SDL2Aux *sdlAux;
 int t;
 vector<Triangle> triangles;
@@ -75,7 +75,6 @@ int main(int argc, char *argv[])
 
 void Draw()
 {
-   //sdlAux->clearPixels();
   Intersection closestIntersectionPoint;
   for (int y = 0; y < SCREEN_HEIGHT; ++y)
   {
@@ -85,7 +84,6 @@ void Draw()
 
       if (ClosestIntersection(cameraPos, direction, triangles, closestIntersectionPoint))
       {
-        //vec3 D = DirectLight(closestIntersectionPoint);
         sdlAux->putPixel(x, y, triangles[closestIntersectionPoint.triangleIndex].color);
       }
       else
@@ -111,20 +109,16 @@ void Update()
   const Uint8 *keystate = SDL_GetKeyboardState(0);
   if (keystate[SDL_SCANCODE_UP])
   {
-    // Move camera forward
     cameraPos.z = cameraPos.z + 0.5;
-    cout << "inside up" << endl;
   }
   if (keystate[SDL_SCANCODE_DOWN])
   {
     // Move camera backward
     cameraPos.z = cameraPos.z - 0.5;
-    cout << "inside down" << endl;
   }
   if (keystate[SDL_SCANCODE_LEFT])
   {
     // Move camera to the left
-    // cameraPos.x = cameraPos.x - 0.5;
     yaw = 5.0f * M_PI / 180.0f;
     R = mat3(cos(yaw), 0, sin(yaw),
              0, 1, 0,
@@ -135,7 +129,6 @@ void Update()
   if (keystate[SDL_SCANCODE_RIGHT])
   {
     // Move camera to the right
-    // cameraPos.x = cameraPos.x + 0.5;
     yaw = 5.0f * M_PI / (-180.0f);
     R = mat3(cos(yaw), 0, sin(yaw),
              0, 1, 0,
@@ -165,7 +158,6 @@ bool ClosestIntersection(vec3 start,
   float m = std::numeric_limits<float>::max();
   bool intersect = false;
   int index;
-  // float distance;
   for (int i = 0; i < triangles.size(); ++i)
   {
     vec3 v0 = triangles[i].v0;

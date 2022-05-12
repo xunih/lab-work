@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/SDL2Auxiliary.cpp" "CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o" "gcc" "CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o.d"
-  "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/lab2/skeleton.cpp" "CMakeFiles/DgiLab.dir/skeleton.cpp.o" "gcc" "CMakeFiles/DgiLab.dir/skeleton.cpp.o.d"
+  "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/SDL2Auxiliary.cpp" "CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o" "gcc" "CMakeFiles/DgiLab.dir/SDL2Auxiliary.cpp.o.d"
+  "/Users/xuni/Documents/Interactive_Media_Technology_MSc/DH2323/Lab/lab-work/lab2/skeleton.cpp" "CMakeFiles/DgiLab.dir/skeleton.cpp.o" "gcc" "CMakeFiles/DgiLab.dir/skeleton.cpp.o.d"
   )
 
 # Targets to which this target links.
